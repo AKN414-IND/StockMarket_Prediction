@@ -91,7 +91,7 @@
     flex-shrink: 0;
   }
   
-  form {
+  .form {
     display: flex;
     padding: 15px;
     background-color: white;
@@ -112,7 +112,7 @@
     border-color: #2563eb;
   }
   
-  form button {
+  .form button {
     background-color: #2563eb;
     color: white;
     border: none;
@@ -126,7 +126,7 @@
     transition: background-color 0.3s;
   }
   
-  form button:hover {
+  .form button:hover {
     background-color: #1d4ed8;
   }
   

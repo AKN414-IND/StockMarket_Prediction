@@ -82,7 +82,7 @@ const Chatbot = ({ onClose }) => {
         ))}
         <div ref={messagesEndRef} />
       </div>
-      <form onSubmit={handleSubmit}>
+      <form className="form" onSubmit={handleSubmit}>
         <input
           type="text"
           value={input}
