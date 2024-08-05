@@ -1,0 +1,144 @@
+{
+  "chatbotData": {
+    "greeting": "Hello! Welcome to Stock Market Guide AI. I'm here to help you navigate the complexities of the stock market.",
+    "help": {
+      "general": "You can ask me anything about stock predictions, market trends, or investment strategies. For more specific inquiries, simply include keywords like 'predict', 'dividend', 'trends', 'strategy', etc., in your questions."
+    },
+    "error": {
+      "unrecognizedInput": "I'm sorry, I couldn't understand that. Could you please rephrase your question or use specific keywords like 'predict', 'info', 'dividend', etc.?"
+    },
+    "farewell": "Goodbye! Remember, investing is a marathon, not a sprint. Feel free to ask more questions anytime."
+  },
+  "keywords": [
+    {
+      "keyword": "predict",
+      "response": "Which stock are you interested in predicting? Please provide a ticker symbol. For example, type 'predict AAPL' for Apple Inc."
+    },
+    {
+      "keyword": "dividend",
+      "response": "Dividends are company earnings distributed to shareholders. Would you like to know about the dividend yields of specific stocks? Please specify the stock symbol."
+    },
+    {
+      "keyword": "trends",
+      "response": "Understanding market trends is crucial for making informed investment decisions. Are you interested in specific sector trends or global market trends?"
+    },
+    {
+      "keyword": "strategy",
+      "response": "There are several investment strategies like value investing, growth investing, and dividend investing. Which strategy would you like to explore more deeply?"
+    },
+    {
+      "keyword": "info",
+      "response": "Please provide a stock symbol to get detailed information. For example, type 'info MSFT' to get information about Microsoft."
+    },
+    {
+      "keyword": "how to invest",
+      "response": "To start investing, you first need to set up a brokerage account, decide on an investment strategy, and begin researching stocks. Need help setting up an account?"
+    },
+    {
+      "keyword": "market",
+      "response": "The stock market can be volatile. Understanding market dynamics is key. Would you like current market analysis or historical data?"
+    },
+    {
+      "keyword": "investment basics",
+      "response": "Investment basics cover a range of topics from what stocks are, how bonds work, to the significance of mutual funds and ETFs. What specific information are you looking for?"
+    },
+    {
+      "keyword": "day trading",
+      "response": "Day trading involves making quick decisions and executing trades on a daily basis. It requires careful analysis and a good understanding of market fluctuations. Want to know more about how to succeed in day trading?"
+    },
+    {
+      "keyword": "swing trading",
+      "response": "Swing trading is aimed at capturing short to medium-term gains over a period from a few days to several weeks. Are you looking for the best techniques and tools for swing trading?"
+    },
+    {
+      "keyword": "long term investing",
+      "response": "Long-term investing typically involves holding investments for years to take advantage of growth, dividends, and splits. Interested in learning about strategies for long-term growth?"
+    },{
+      "keyword": "bull market",
+      "response": "A bull market is characterized by rising stock prices, typically 20% or more from recent lows. It reflects investor confidence and strong economic performance. Interested in strategies for investing in a bull market?"
+    },
+    {
+      "keyword": "bear market",
+      "response": "A bear market occurs when stock prices fall 20% or more from recent highs and is generally associated with economic downturns. Would you like advice on how to handle investments during a bear market?"
+    },
+    {
+      "keyword": "diversification",
+      "response": "Diversification is a risk management strategy that mixes a wide variety of investments within a portfolio. It aims to maximize returns by investing in different areas that would each react differently to the same event. Need tips on how to diversify your portfolio?"
+    },
+    {
+      "keyword": "risk management",
+      "response": "Risk management in investing involves identifying, analyzing, and accepting or mitigating the uncertainties of the investment decisions. Would you like to learn more about risk assessment techniques?"
+    },
+    {
+      "keyword": "technical analysis",
+      "response": "Technical analysis involves studying past market data, primarily price and volume, to forecast future stock behavior. Are you interested in learning how to use technical analysis tools?"
+    },
+    {
+      "keyword": "fundamental analysis",
+      "response": "Fundamental analysis is a method of evaluating a security in an attempt to measure its intrinsic value, by examining related economic, financial, and other qualitative and quantitative factors. Want a deeper understanding of how it's done?"
+    },
+    {
+      "keyword": "IPO",
+      "response": "An Initial Public Offering (IPO) is when a company issues public stock for the first time to raise capital from public investors. Would you like to explore upcoming IPOs or the process involved?"
+    },
+    {
+      "keyword": "stock options",
+      "response": "Stock options give investors the right, but not the obligation, to buy or sell a stock at an agreed-upon price and date. Are you interested in how options trading works or strategies for trading options?"
+    },
+    {
+      "keyword": "ETFs",
+      "response": "Exchange Traded Funds (ETFs) are a type of security that involves a collection of securities—such as stocks—that often tracks an underlying index, but they are traded on stock exchanges like individual stocks. Curious about investing in ETFs?"
+    },
+    {
+      "keyword": "bonds",
+      "response": "Bonds are fixed-income investments where an investor loans money to an entity (corporate or governmental) that borrows the funds for a defined period at a fixed interest rate. Interested in the types of bonds and their benefits?"
+    },
+    {
+      "keyword": "crypto",
+      "response": "Cryptocurrencies are digital or virtual currencies that use cryptography for security and operate independently of a central bank. Want to understand how crypto fits into modern investment portfolios?"
+    },
+    {
+      "keyword": "portfolio",
+      "response": "Your investment portfolio represents a collection of all the investments you own across various asset classes. It can include stocks, bonds, mutual funds, options, and more. Need help analyzing or optimizing your portfolio?"
+    },{
+      "keyword": "mutual funds",
+      "response": "Mutual funds pool money from many investors to purchase a broad range of investments, such as stocks, bonds, and other assets. Are you interested in learning how mutual funds can fit into your investment strategy?"
+    },
+    {
+      "keyword": "value investing",
+      "response": "Value investing is a strategy where investors look for stocks that appear to be trading for less than their intrinsic or book value. Intrigued by how to find undervalued stocks?"
+    },
+    {
+      "keyword": "growth investing",
+      "response": "Growth investing focuses on companies that exhibit signs of above-average growth, even if the share price appears expensive in terms of metrics like price-to-earnings ratio. Would you like tips on identifying high growth potential stocks?"
+    },
+    {
+      "keyword": "REITs",
+      "response": "Real Estate Investment Trusts (REITs) allow individuals to invest in large-scale, income-producing real estate. They provide a way to invest in real estate without the need to buy properties. Curious about the benefits of investing in REITs?"
+    },
+    {
+      "keyword": "penny stocks",
+      "response": "Penny stocks are low-priced, small-cap stocks that are often traded over-the-counter. They can be highly speculative and risky. Interested in understanding the risks and potential rewards of investing in penny stocks?"
+    },
+    {
+      "keyword": "index funds",
+      "response": "Index funds are a type of mutual fund or ETF that aims to replicate the performance of a specific index, like the S&P 500. They offer diversification and are often a low-cost way to invest in the stock market. Want to know more about index fund investing?"
+    },
+    {
+      "keyword": "short selling",
+      "response": "Short selling involves borrowing shares and selling them with the intention of buying them back at a lower price. It's a strategy used when investors believe a stock's price will decline. Curious about the mechanics and risks of short selling?"
+    },
+    {
+      "keyword": "blue-chip stocks",
+      "response": "Blue-chip stocks are shares in large, reputable companies with a history of reliable financial performance. They are often considered safe investments. Interested in identifying blue-chip stocks?"
+    },
+    {
+      "keyword": "market volatility",
+      "response": "Market volatility refers to the frequency and magnitude of price movements in the market. It's a key consideration for investors. Need strategies for navigating volatile markets?"
+    },
+    {
+      "keyword": "compound interest",
+      "response": "Compound interest is the interest on a loan or deposit calculated based on both the initial principal and the accumulated interest from previous periods. It's a powerful concept in investing. Want to learn more about how it can grow your investments?"
+    }
+  ]
+}
