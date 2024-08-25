@@ -8,7 +8,7 @@ export default function Footer() {
                         Nulla auctor metus vitae lectus iaculis, vel euismod massa efficitur.
                     </p>
                     <div className="items-center gap-x-3 space-y-3 sm:flex sm:justify-center sm:space-y-0">
-                        <a href="javascript:void(0)" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
+                        <a href="https://stockanalysisgit-k2ocpbsszxcyaap887ad3z.streamlit.app/" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
                             Let's get started
                         </a>
                         <a

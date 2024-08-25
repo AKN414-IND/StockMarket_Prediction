@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 
 export default function Header() {
   const [state, setState] = useState(false);
-
   // Replace javascript:void(0) paths with your paths
   const navigation = [
     { title: "Features", path: "javascript:void(0)" },
@@ -17,6 +16,9 @@ export default function Header() {
       if (!target.closest(".menu-btn")) setState(false);
     };
   }, []);
+  const handleNav = () => {
+    window.location.href = 'https://stockanalysisgit-k2ocpbsszxcyaap887ad3z.streamlit.app/'; 
+  };
 
   const Brand = () => (
     <div className="flex items-center justify-between py-5 md:block">
@@ -97,7 +99,8 @@ export default function Header() {
                 ))}
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="https://stockanalysisgit-k2ocpbsszxcyaap887ad3z.streamlit.app/"
+                    target="_blank"
                     className="flex items-center justify-center gap-x-1 py-2 px-4 text-white font-medium bg-sky-500 hover:bg-sky-400 active:bg-sky-600 duration-150 rounded-full md:inline-flex"
                   >
                     Get started
@@ -133,13 +136,15 @@ export default function Header() {
               onSubmit={(e) => e.preventDefault()}
               className="justify-center items-center gap-x-3 sm:flex"
             >
-              <button className="flex items-center justify-center gap-x-2 py-2.5 px-4 mt-3 w-full text-sm text-white font-medium bg-sky-500 hover:bg-sky-400 active:bg-sky-600 duration-150 rounded-lg sm:mt-0 sm:w-auto">
+              <button className="flex items-center justify-center gap-x-2 py-2.5 px-4 mt-3 w-full text-sm text-white font-medium bg-sky-500 hover:bg-sky-400 active:bg-sky-600 duration-150 rounded-lg sm:mt-0 sm:w-auto" onClick={handleNav}>
                 Get started
+                
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                   className="w-5 h-5"
+                  
                 >
                   <path
                     fillRule="evenodd"

@@ -139,6 +139,10 @@
     {
       "keyword": "compound interest",
       "response": "Compound interest is the interest on a loan or deposit calculated based on both the initial principal and the accumulated interest from previous periods. It's a powerful concept in investing. Want to learn more about how it can grow your investments?"
+    },
+    {
+      "keyword": "closing price",
+      "response": "The closing price is the last price at which a stock trades during the regular trading hours of an exchange on a given day. If you provide a stock symbol, I can fetch the latest closing price for you."
     }
   ]
 }
