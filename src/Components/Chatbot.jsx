@@ -8,11 +8,17 @@ const Chatbot = ({ onClose }) => {
   const [input, setInput] = useState('');
   const [isMinimized, setIsMinimized] = useState(false);
   const messagesEndRef = useRef(null);
+  const greetingShownRef = useRef(false);
 
-  useEffect(() => {
+useEffect(() => {
+  if (!greetingShownRef.current) {
     addMessage('bot', chatbotData.chatbotData.greeting);
-  }, []);
+    greetingShownRef.current = true;
+  }
+}, []);
 
+
+  
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
