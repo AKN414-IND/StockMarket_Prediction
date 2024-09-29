@@ -11,7 +11,7 @@ export default function Footer() {
                         <a href="https://stockanalysisgit-k2ocpbsszxcyaap887ad3z.streamlit.app/" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
                             Let's get started
                         </a>
-                        <a
+                        {/* <a
                     href="javascript:void(0)"
                     className="flex items-center justify-center gap-x-2 py-2.5 px-4 mt-3 w-full text-sm text-white font-medium bg-sky-500 hover:bg-sky-400 active:bg-sky-600 duration-150 rounded-lg sm:mt-0 sm:w-auto"
                   >
@@ -28,7 +28,7 @@ export default function Footer() {
                         clipRule="evenodd"
                       />
                     </svg>
-                  </a>
+                  </a> */}
                     </div>
                 </div>
                 <div className="mt-10 py-10 border-t border-gray-700 items-center justify-between sm:flex">
