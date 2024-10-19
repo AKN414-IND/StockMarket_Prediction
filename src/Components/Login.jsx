@@ -12,9 +12,9 @@ export default function Login() {
     e.preventDefault();
     try {
       if (isLoginMode) {
-        await login(email, password); // Log the user in
+        await login(email, password); 
       } else {
-        await register(email, password); // Register the user
+        await register(email, password); 
       }
     } catch (error) {
       setError(
